@@ -1,1 +1,1 @@
-# rickmortyApi
+# Rick morty Api
