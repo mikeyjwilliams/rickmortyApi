@@ -3,6 +3,7 @@ function CardCreator(obj) {
   card.classList.add('card');
 
   const image = document.createElement('img');
+  image.classList.add('card-img');
   image.src = obj.image;
   image.alt = obj.name;
   card.appendChild(image);
@@ -39,6 +40,8 @@ axios
 
     const mortyCard = CardCreator(morty);
     console.log(mortyCard);
+    const mainSection = document.querySelector('.main-section');
+    mainSection.appendChild(mortyCard);
   })
   .catch(err => {
     console.log(err);
