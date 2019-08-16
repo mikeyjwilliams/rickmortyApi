@@ -1,0 +1,14 @@
+.card {
+  background-color: ghostwhite;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+}
+.card-img {
+  border-radius: 5px;
+}
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
