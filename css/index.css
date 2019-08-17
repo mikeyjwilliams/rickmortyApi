@@ -3,6 +3,9 @@
   border-radius: 5px;
   text-align: center;
   padding: 25px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  width: 20%;
 }
 .card-img {
   border-radius: 5px;
