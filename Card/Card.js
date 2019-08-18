@@ -1,9 +1,11 @@
 function CardCreator(obj) {
 	const card = document.createElement('div');
 	card.classList.add('card');
+	card.classList.add('container-fluid');
+	card.classList.add('w-25');
 
 	const image = document.createElement('img');
-	image.classList.add('card-img');
+	image.classList.add('card-img-top');
 	image.src = obj.image;
 	image.alt = obj.name;
 	card.appendChild(image);
